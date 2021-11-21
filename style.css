@@ -1,0 +1,129 @@
+/* ==Primary Colors
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%) */
+
+/* ==Neutral Colors
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%) */
+
+/* == Font-Size: 16px == */
+
+
+/* ==
+attribution
+== */
+.attribution { font-size: 11px; text-align: center; margin-top: 0px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution{color: black; }
+
+
+
+body{
+    background-color: hsla(218, 22%, 67%, 0.4);
+    font-family: 'Karla', sans-serif;
+    color: hsl(218, 22%, 67%);
+    /* text-align: center; */
+}
+
+h1{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+h2{
+    color: hsl(204, 43%, 93%);
+}
+
+h3{
+    color: hsl(71, 73%, 54%);
+}
+
+b{
+    color: hsl(204, 43%, 93%);
+    font-size: 35px;
+}
+
+.gain{
+    font-size: 16px;
+    line-height: 30px;
+    color:#c0c2c9;
+}
+
+.dollar{
+    font-size: 15px;
+}
+
+.dollar sup{
+    margin-left: 10px;
+    color: #65d1d4;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 20px 10px;
+}
+
+.monthly{
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    border-radius: 0 0 6px 6px;
+}
+
+.why-us{
+    background-color: hsl(179, 68%, 43%);
+    border-radius: 0 0 6px 6px;
+}
+
+ .sign{
+    text-align:center;
+    text-decoration: none;
+    background-color: hsl(71, 73%, 54%);
+    color:hsl(204, 43%, 93%);
+    font-size:16px;
+    padding: 15px;
+    margin: 0 10px;
+    border-radius: 6px;
+}
+
+.sign a{
+    text-align: center;
+}
+
+.join, .per, .why{
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 22px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li{
+    color: #8ae5e6;
+}
+
+@media (min-width:850px){
+    body{
+        width: 55%;
+        margin: auto auto;
+    }
+    .monthly{
+        display: flex;
+    }
+    .why-us{
+        width: 100%;
+        padding:  10px 30px; 
+    }
+    .per{
+        width: 100%;
+        padding: 30px 20px 0 30px;
+    }
+    .sign{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+}
